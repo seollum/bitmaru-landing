@@ -348,7 +348,7 @@ export default function Home() {
                 <div className="w-14 h-14 bg-blue-100 text-[#1d4cd7] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <span className="material-symbols-outlined text-4xl">edit_note</span>
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-2">Human-Written & Reviewed</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-2">전문가 직접 작성 & 검수</h3>
                 <p className="text-slate-600 leading-relaxed">
                   자동 대량 생성에 의존하지 않고, 사람이 작성·검수합니다.<br />문장 톤과 흐름을 맞춰 완성도를 올립니다.
                 </p>
@@ -358,7 +358,7 @@ export default function Home() {
                 <div className="w-14 h-14 bg-blue-100 text-[#1d4cd7] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <span className="material-symbols-outlined text-4xl">target</span>
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-2">Keyword Fit Planning</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-2">최적화 키워드 설계</h3>
                 <p className="text-slate-600 leading-relaxed">
                   업종·지역·목적에 맞춰 구조와 키워드를 먼저 설계합니다.<br />광고 느낌은 줄이고, 읽히는 글로 정리합니다.
                 </p>
@@ -368,7 +368,7 @@ export default function Home() {
                 <div className="w-14 h-14 bg-blue-100 text-[#1d4cd7] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <span className="material-symbols-outlined text-4xl">speed</span>
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-2">Fast Draft, Clear Revisions</h3>
+                <h3 className="text-2xl font-bold text-slate-900 mb-2">신속한 초안 및 명확한 수정</h3>
                 <p className="text-slate-600 leading-relaxed">
                   초안 공유와 피드백 흐름을 빠르게 가져갑니다.<br />수정 기준을 명확히 해 진행이 끊기지 않게 합니다.
                 </p>
@@ -717,7 +717,7 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="material-symbols-outlined text-yellow-400 text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>check</span>
-                    <span className="text-white/80 text-sm">이웃 관리 및 소통 대행</span>
+                    <span className="text-white/80 text-sm">이웃 관리 및 블로그 활성화 작업</span>
                   </div>
                 </div>
               </div>
@@ -1381,7 +1381,7 @@ export default function Home() {
       <div className={`fixed bottom-0 left-0 right-0 z-50 bg-slate-900 text-white py-5 px-4 shadow-2xl cta-bar ${ctaVisible ? "visible" : ""}`}>
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-lg sm:text-2xl font-semibold text-center sm:text-left">
-            <span className="text-[#60a5fa]">소액도 가능합니다.</span> 먼저 무료상담부터 받아보세요!
+            <span className="text-[#60a5fa]">소량으로 가능합니다.</span> 먼저 무료상담부터 받아보세요!
           </p>
           <div className="flex items-center gap-3">
             <a
