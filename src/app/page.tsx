@@ -1363,34 +1363,40 @@ export default function Home() {
               <div className="text-slate-400 w-6 h-6 flex items-center justify-center">
                 <span className="material-symbols-outlined">rocket_launch</span>
               </div>
-              <span className="text-lg font-bold text-slate-700">Bitmaru</span>
+              <span className="text-lg font-bold text-slate-700">빛마루 마케팅</span>
             </div>
             <div className="text-slate-500 text-sm">
-              © 2025 Bitmaru Marketing. All rights reserved.
+              © 2025 빛마루 마케팅. All rights reserved.
             </div>
             <div className="flex gap-6">
-              <a className="text-slate-400 hover:text-[#1d4cd7] transition-colors" href="#">Terms</a>
-              <a className="text-slate-400 hover:text-[#1d4cd7] transition-colors" href="#">Privacy</a>
-              <a className="text-slate-400 hover:text-[#1d4cd7] transition-colors" href="#">Contact</a>
+              <a className="text-slate-400 hover:text-[#1d4cd7] transition-colors" href="#">이용약관</a>
+              <a className="text-slate-400 hover:text-[#1d4cd7] transition-colors" href="#">개인정보</a>
+              <a className="text-slate-400 hover:text-[#1d4cd7] transition-colors" href="#">문의</a>
             </div>
           </div>
         </footer>
       </main>
 
       {/* 하단 고정 CTA 바 */}
-      <div className={`fixed bottom-0 left-0 right-0 z-50 bg-slate-900 text-white py-5 px-4 shadow-2xl cta-bar ${ctaVisible ? "visible" : ""}`}>
+      <div className={`fixed bottom-0 left-0 right-0 z-50 text-white py-4 px-4 shadow-2xl cta-bar ${ctaVisible ? "visible" : ""}`} style={{ background: 'linear-gradient(135deg, #0a1628 0%, #1a2a42 100%)' }}>
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-lg sm:text-2xl font-semibold text-center sm:text-left">
-            <span className="text-[#60a5fa]">소량으로 가능합니다.</span> 먼저 무료상담부터 받아보세요!
-          </p>
+          <div className="flex items-center gap-3 text-center sm:text-left">
+            <span className="hidden sm:inline-flex items-center justify-center px-3 py-1 rounded-full bg-yellow-400 text-slate-900 text-xs font-black uppercase tracking-wider animate-pulse">
+              🎁 EVENT
+            </span>
+            <p className="text-lg sm:text-2xl font-bold">
+              지금 <span className="text-yellow-400 font-black">무료 진단 이벤트</span> 진행 중!
+            </p>
+          </div>
           <div className="flex items-center gap-3">
             <a
               href="https://link.inpock.co.kr/koreaautoweb"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center px-8 py-3 rounded-full bg-[#1d4cd7] hover:bg-blue-600 text-white text-lg font-bold transition-all"
+              className="flex items-center justify-center px-8 py-3 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-slate-900 text-lg font-black shadow-lg shadow-yellow-500/30 transition-all transform hover:-translate-y-0.5"
             >
-              문의하기
+              무료 진단 받기
+              <span className="material-symbols-outlined ml-1 text-lg">arrow_forward</span>
             </a>
           </div>
         </div>
