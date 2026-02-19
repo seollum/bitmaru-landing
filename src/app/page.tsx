@@ -93,7 +93,7 @@ export default function Home() {
               <div className="text-[#1d4cd7] w-6 h-6 flex items-center justify-center">
                 <span className="material-symbols-outlined text-[28px] font-bold">rocket_launch</span>
               </div>
-              <span className="text-xl font-black tracking-tight text-slate-900">빛마루</span>
+              <span className="text-xl font-black tracking-tight text-slate-900">빛마루 마케팅</span>
             </div>
             <nav className="hidden md:flex items-center gap-8">
               <a className="text-sm font-semibold text-slate-600 hover:text-[#1d4cd7] transition-colors" href="#process">프로세스</a>
@@ -205,7 +205,7 @@ export default function Home() {
                 <p className="text-center text-slate-500 text-sm mt-6 font-medium">
                   <span className="inline-flex items-center gap-1">
                     <span className="material-symbols-outlined text-yellow-500 text-lg" style={{ fontVariationSettings: "'FILL' 1" }}>lightbulb</span>
-                    빛마루는 <span className="text-[#0056FF] font-bold">유입 전략</span>에 집중합니다
+                    빛마루 마케팅은 <span className="text-[#0056FF] font-bold">유입 전략</span>에 집중합니다
                   </span>
                 </p>
               </div>
@@ -339,7 +339,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-3">
-                빛마루만의 차별점
+                빛마루 마케팅만의 차별점
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -382,7 +382,7 @@ export default function Home() {
         <section className="w-full px-4 py-20 bg-[#0a1628] text-white" id="process">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-5xl font-black mb-4">빛마루 7단계 프로세스</h2>
+              <h2 className="text-3xl md:text-5xl font-black mb-4">빛마루 마케팅 7단계 프로세스</h2>
               <p className="text-blue-300/80 text-lg">체계적인 프로세스로 확실한 결과를 만듭니다</p>
             </div>
 
