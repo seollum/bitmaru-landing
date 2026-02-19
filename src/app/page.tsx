@@ -1381,7 +1381,7 @@ export default function Home() {
       </main>
 
       {/* 하단 고정 CTA 바 */}
-      <div className={`fixed bottom-0 left-0 right-0 z-50 text-white py-4 px-4 shadow-2xl cta-bar ${ctaVisible ? "visible" : ""}`} style={{ background: 'linear-gradient(135deg, #0a1628 0%, #1a2a42 100%)' }}>
+      <div className={`fixed bottom-0 left-0 right-0 z-50 text-white py-8 px-4 shadow-2xl cta-bar ${ctaVisible ? "visible" : ""}`} style={{ background: 'linear-gradient(135deg, #0a1628 0%, #1a2a42 100%)' }}>
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3 text-center sm:text-left">
             <span className="hidden sm:inline-flex items-center justify-center px-3 py-1 rounded-full bg-yellow-400 text-slate-900 text-xs font-black uppercase tracking-wider animate-pulse">
