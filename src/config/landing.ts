@@ -106,7 +106,7 @@ export const packages = {
     note: "자세한 사양은 크몽 상세 기준",
     items: [
         {
-            name: "STANDARD",
+            name: "스탠다드",
             price: "10,000원",
             blogGrade: "준최적화 4등급",
             charCount: "300~500자",
@@ -116,7 +116,7 @@ export const packages = {
             recommendation: "간단한 소식/후기형 포스팅",
         },
         {
-            name: "DELUXE",
+            name: "디럭스",
             price: "20,000원",
             blogGrade: "준최적화 4등급",
             charCount: "800~1,000자",
@@ -126,7 +126,7 @@ export const packages = {
             recommendation: "상세 설명이 필요한 서비스/제품 소개",
         },
         {
-            name: "PREMIUM",
+            name: "프리미엄",
             price: "50,000원",
             blogGrade: "준최적화 5~6등급",
             charCount: "1,000~1,500자",

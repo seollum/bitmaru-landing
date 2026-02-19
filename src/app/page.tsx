@@ -93,16 +93,16 @@ export default function Home() {
               <div className="text-[#1d4cd7] w-6 h-6 flex items-center justify-center">
                 <span className="material-symbols-outlined text-[28px] font-bold">rocket_launch</span>
               </div>
-              <span className="text-xl font-black tracking-tight text-slate-900">Bitmaru</span>
+              <span className="text-xl font-black tracking-tight text-slate-900">빛마루</span>
             </div>
             <nav className="hidden md:flex items-center gap-8">
-              <a className="text-sm font-semibold text-slate-600 hover:text-[#1d4cd7] transition-colors" href="#process">Process</a>
-              <a className="text-sm font-semibold text-slate-600 hover:text-[#1d4cd7] transition-colors" href="#reviews">Reviews</a>
-              <a className="text-sm font-semibold text-slate-600 hover:text-[#1d4cd7] transition-colors" href="#faq">FAQ</a>
+              <a className="text-sm font-semibold text-slate-600 hover:text-[#1d4cd7] transition-colors" href="#process">프로세스</a>
+              <a className="text-sm font-semibold text-slate-600 hover:text-[#1d4cd7] transition-colors" href="#reviews">후기</a>
+              <a className="text-sm font-semibold text-slate-600 hover:text-[#1d4cd7] transition-colors" href="#faq">자주 묻는 질문</a>
             </nav>
             <div className="flex items-center">
               <a className="hidden sm:flex items-center justify-center h-10 px-5 rounded-lg bg-[#1d4cd7] hover:bg-blue-700 text-white text-sm font-bold shadow-md transition-all transform hover:-translate-y-0.5" href="https://kmong.com/gig/638867" target="_blank" rel="noopener noreferrer">
-                Check Kmong
+                크몽에서 확인하기
               </a>
             </div>
           </div>
@@ -163,7 +163,7 @@ export default function Home() {
                       <span className="material-symbols-outlined text-white text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>visibility</span>
                     </div>
                     <span className="text-2xl md:text-3xl font-black text-[#0056FF]">노출</span>
-                    <span className="text-xs text-slate-500 font-medium">Exposure</span>
+                    <span className="text-xs text-slate-500 font-medium">노출수</span>
                   </div>
 
                   <span className="text-3xl md:text-4xl font-bold text-slate-400">×</span>
@@ -174,7 +174,7 @@ export default function Home() {
                       <span className="material-symbols-outlined text-white text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>ads_click</span>
                     </div>
                     <span className="text-2xl md:text-3xl font-bold text-[#1d4cd7]">전환율</span>
-                    <span className="text-xs text-slate-500 font-medium">Conversion</span>
+                    <span className="text-xs text-slate-500 font-medium">전환율</span>
                   </div>
 
                   <span className="text-3xl md:text-4xl font-bold text-slate-400">×</span>
@@ -185,7 +185,7 @@ export default function Home() {
                       <span className="material-symbols-outlined text-white text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>sell</span>
                     </div>
                     <span className="text-2xl md:text-3xl font-bold text-[#1d4cd7]">객단가</span>
-                    <span className="text-xs text-slate-500 font-medium">AOV</span>
+                    <span className="text-xs text-slate-500 font-medium">1인당 결제액</span>
                   </div>
 
                   <span className="text-3xl md:text-4xl font-bold text-slate-400 hidden md:block">=</span>
@@ -197,7 +197,7 @@ export default function Home() {
                       <span className="material-symbols-outlined text-white text-4xl" style={{ fontVariationSettings: "'FILL' 1" }}>payments</span>
                     </div>
                     <span className="text-3xl md:text-4xl font-black text-green-600">매출</span>
-                    <span className="text-xs text-green-700 font-medium">Revenue</span>
+                    <span className="text-xs text-green-700 font-medium">총 매출</span>
                   </div>
                 </div>
 
@@ -227,7 +227,7 @@ export default function Home() {
                 <Image alt="User avatar" className="w-8 h-8 rounded-full border-2 border-white object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPmIy6aH31xlpaVp6YS1d4QohEIsGb_dU2cM-2wPm-hW1IoHpQI0pQosOskyLfunwYfu3BpPOXoQZM9bdmCa2oIKJqp0KNBQwDcFdHMY2bdw-zJ3YUgFxXVliE1W18W1wPyj3Bw9cOqY09fmsmcIdar_uS_fLz66zptjF5EmOpVjIhqlVSynep8Rm-HHR7XnLE4Vkht91pHO2cUnv6Y4WtXIpPP5E3_UflEW5uTml8qaUEtwtEnx8Lm9b89AQVFzRcr4U0448oD0Tu" width={32} height={32} />
                 <Image alt="User avatar" className="w-8 h-8 rounded-full border-2 border-white object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoeMv_O-xI3pQTD94t8pN09uugZfeMxF10j5nMc4VPe4K4XSx64CHwQsK4DMeN5P62yZyfDdqT6p9JJqnRGsyLY-I3RVJJEuSN_wpSXbKowuzrp6qTfbomt9Z4R7oOAtAk3Wbi5XN3Nv6IY67GdPdaPs8kLXH4PgKZw3VnTAlwD8wRIGGBzBkSEwRIphdT-w3_rd_EYRluPzm7jqeOuIfRyS_uHgPGYgTNumvGURP8bEDTqLYGnW-bicZ_HPDcldKj3ItbW0uD1FeT" width={32} height={32} />
               </div>
-              <p>Trusted by 500+ Bloggers</p>
+              <p>500명 이상의 블로거가 신뢰합니다</p>
             </div>
           </div>
         </section>
@@ -291,7 +291,7 @@ export default function Home() {
         <section className="w-full px-4 py-20 bg-[#0a1628] reveal">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <p className="text-yellow-400 text-sm font-bold uppercase tracking-widest mb-4">PAIN POINTS</p>
+              <p className="text-yellow-400 text-sm font-bold uppercase tracking-widest mb-4">문제점</p>
               <h2 className="text-3xl md:text-4xl font-black text-white">
                 혹시 이런 고민을 하고 계신가요?
               </h2>
@@ -339,7 +339,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-3">
-                Bitmaru Difference
+                빛마루만의 차별점
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -382,7 +382,7 @@ export default function Home() {
         <section className="w-full px-4 py-20 bg-[#0a1628] text-white" id="process">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-5xl font-black mb-4">Bitmaru 7-Step Process</h2>
+              <h2 className="text-3xl md:text-5xl font-black mb-4">빛마루 7단계 프로세스</h2>
               <p className="text-blue-300/80 text-lg">체계적인 프로세스로 확실한 결과를 만듭니다</p>
             </div>
 
@@ -575,11 +575,11 @@ export default function Home() {
               {/* Left Content */}
               <div>
                 <div className="inline-block px-3 py-1 rounded-md bg-[#1d4cd7] text-white text-xs font-bold uppercase tracking-wider mb-4">
-                  STRATEGY 01
+                  전략 01
                 </div>
                 <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 leading-tight">
                   기다리지 않는 마케팅,<br />
-                  <span className="text-[#1d4cd7]">외부 유입(External Influx)</span> 전략
+                  <span className="text-[#1d4cd7]">외부 유입 전략</span>
                 </h2>
                 <p className="text-slate-600 leading-relaxed mb-8">
                   블로그 상위노출에만 묶이지 마세요. 빛마루는 고품질 블로그 콘텐츠와 커뮤니티/SNS 확산 전략을 결합하여, 잠재 고객이 있는 곳으로 직접 찾아가 트래픽을 끌어옵니다.
@@ -621,8 +621,8 @@ export default function Home() {
               {/* Right - Chart Visualization */}
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200">
                 <div className="mb-6">
-                  <p className="text-sm text-slate-500 mb-1">Total Visitors</p>
-                  <p className="text-3xl font-black text-slate-900">Data Overview</p>
+                  <p className="text-sm text-slate-500 mb-1">총 방문자 수</p>
+                  <p className="text-3xl font-black text-slate-900">데이터 개요</p>
                 </div>
 
                 {/* Chart Bars */}
@@ -675,7 +675,7 @@ export default function Home() {
                     <span className="material-symbols-outlined text-[#22c55e] text-2xl">trending_up</span>
                   </div>
                   <div>
-                    <p className="text-sm text-slate-500">Visitor Growth</p>
+                    <p className="text-sm text-slate-500">방문자 증가율</p>
                     <p className="text-2xl font-black text-[#22c55e]">+124%</p>
                   </div>
                 </div>
@@ -689,7 +689,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-14">
               <h2 className="text-3xl md:text-5xl font-black text-white mb-4">
-                Total Marketing Solutions
+                토탈 마케팅 솔루션
               </h2>
               <p className="text-slate-400 text-lg">
                 비즈니스 단계에 꼭 필요한 서비스만 선택하세요.
@@ -701,7 +701,7 @@ export default function Home() {
               <div className="bg-[#1a2a42] rounded-2xl p-8 border border-slate-700 card-hover reveal reveal-delay-1">
                 <div className="flex items-start justify-between mb-4">
                   <h3 className="text-xl font-bold text-white">블로그 브랜딩·관리대행</h3>
-                  <span className="px-3 py-1 rounded-md bg-yellow-400 text-slate-900 text-xs font-black uppercase tracking-wider">PREMIUM</span>
+                  <span className="px-3 py-1 rounded-md bg-yellow-400 text-slate-900 text-xs font-black uppercase tracking-wider">프리미엄</span>
                 </div>
                 <p className="text-slate-400 text-sm leading-relaxed mb-6">
                   단순 관리가 아닌 브랜드의 팬을 만드는 과정입니다. 키워드 장악부터 잠재 고객 관리까지, 장기적인 매출 파이프라인을 구축합니다.
