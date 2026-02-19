@@ -343,30 +343,33 @@ export default function Home() {
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {/* Card 1 */}
-              <div className="group bg-[#f6f6f8] p-8 rounded-2xl border-2 border-slate-200 hover:border-[#1d4cd7] transition-all duration-300">
-                <div className="w-14 h-14 bg-blue-100 text-[#1d4cd7] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined text-4xl">edit_note</span>
+              {/* Card 1 - 블루 포인트 */}
+              <div className="group bg-white p-8 rounded-2xl border-2 border-slate-200 hover:border-[#1d4cd7] transition-all duration-300 relative overflow-hidden shadow-sm hover:shadow-lg">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+                <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-blue-500/30">
+                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>edit_note</span>
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">전문가 직접 작성 & 검수</h3>
                 <p className="text-slate-600 leading-relaxed">
                   자동 대량 생성에 의존하지 않고, 사람이 작성·검수합니다.<br />문장 톤과 흐름을 맞춰 완성도를 올립니다.
                 </p>
               </div>
-              {/* Card 2 */}
-              <div className="group bg-[#f6f6f8] p-8 rounded-2xl border-2 border-slate-200 hover:border-[#1d4cd7] transition-all duration-300">
-                <div className="w-14 h-14 bg-blue-100 text-[#1d4cd7] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined text-4xl">target</span>
+              {/* Card 2 - 퍼플 포인트 */}
+              <div className="group bg-white p-8 rounded-2xl border-2 border-slate-200 hover:border-purple-500 transition-all duration-300 relative overflow-hidden shadow-sm hover:shadow-lg">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 to-violet-600"></div>
+                <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-violet-600 text-white rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-purple-500/30">
+                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>target</span>
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">최적화 키워드 설계</h3>
                 <p className="text-slate-600 leading-relaxed">
                   업종·지역·목적에 맞춰 구조와 키워드를 먼저 설계합니다.<br />광고 느낌은 줄이고, 읽히는 글로 정리합니다.
                 </p>
               </div>
-              {/* Card 3 */}
-              <div className="group bg-[#f6f6f8] p-8 rounded-2xl border-2 border-slate-200 hover:border-[#1d4cd7] transition-all duration-300">
-                <div className="w-14 h-14 bg-blue-100 text-[#1d4cd7] rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined text-4xl">speed</span>
+              {/* Card 3 - 그린 포인트 */}
+              <div className="group bg-white p-8 rounded-2xl border-2 border-slate-200 hover:border-emerald-500 transition-all duration-300 relative overflow-hidden shadow-sm hover:shadow-lg">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-500 to-teal-600"></div>
+                <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-teal-600 text-white rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-lg shadow-emerald-500/30">
+                  <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>speed</span>
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">신속한 초안 및 명확한 수정</h3>
                 <p className="text-slate-600 leading-relaxed">
@@ -391,12 +394,12 @@ export default function Home() {
               {/* Row 1: Steps 01-04 */}
               <div className="relative mb-16">
                 {/* Connecting Line */}
-                <div className="absolute top-11 left-[12%] right-[12%] h-[2px] bg-white/15"></div>
+                <div className="absolute top-11 left-[12%] right-[12%] h-[2px] bg-gradient-to-r from-blue-500/40 via-blue-400/60 to-blue-500/40"></div>
 
                 <div className="grid grid-cols-4 gap-6">
                   {/* Step 01 */}
                   <div className="relative z-10 flex flex-col items-center text-center">
-                    <div className="w-[88px] h-[88px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.3)] mb-6 border-4 border-white/20 step-circle">
+                    <div className="w-[88px] h-[88px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.4)] mb-6 border-4 border-blue-400/30 step-circle">
                       <span className="text-[28px] font-black">01</span>
                     </div>
                     <h3 className="text-[24px] font-bold mb-3">상담</h3>
@@ -407,7 +410,7 @@ export default function Home() {
 
                   {/* Step 02 */}
                   <div className="relative z-10 flex flex-col items-center text-center">
-                    <div className="w-[88px] h-[88px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.3)] mb-6 border-4 border-white/20 step-circle">
+                    <div className="w-[88px] h-[88px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.4)] mb-6 border-4 border-blue-400/30 step-circle">
                       <span className="text-[28px] font-black">02</span>
                     </div>
                     <h3 className="text-[24px] font-bold mb-3">가이드 전송</h3>
@@ -418,7 +421,7 @@ export default function Home() {
 
                   {/* Step 03 */}
                   <div className="relative z-10 flex flex-col items-center text-center">
-                    <div className="w-[88px] h-[88px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.3)] mb-6 border-4 border-white/20 step-circle">
+                    <div className="w-[88px] h-[88px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.4)] mb-6 border-4 border-blue-400/30 step-circle">
                       <span className="text-[28px] font-black">03</span>
                     </div>
                     <h3 className="text-[24px] font-bold mb-3">전략 구축</h3>
@@ -429,7 +432,7 @@ export default function Home() {
 
                   {/* Step 04 */}
                   <div className="relative z-10 flex flex-col items-center text-center">
-                    <div className="w-[88px] h-[88px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.3)] mb-6 border-4 border-white/20 step-circle">
+                    <div className="w-[88px] h-[88px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.4)] mb-6 border-4 border-blue-400/30 step-circle">
                       <span className="text-[28px] font-black">04</span>
                     </div>
                     <h3 className="text-[24px] font-bold mb-3">원고 작성</h3>
@@ -443,12 +446,12 @@ export default function Home() {
               {/* Row 2: Steps 05-07 */}
               <div className="relative">
                 {/* Connecting Line */}
-                <div className="absolute top-11 left-[16%] right-[16%] h-[2px] bg-white/15"></div>
+                <div className="absolute top-11 left-[16%] right-[16%] h-[2px] bg-gradient-to-r from-blue-500/40 via-blue-400/60 to-blue-500/40"></div>
 
                 <div className="grid grid-cols-3 gap-6 max-w-4xl mx-auto">
                   {/* Step 05 */}
                   <div className="relative z-10 flex flex-col items-center text-center">
-                    <div className="w-[88px] h-[88px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.3)] mb-6 border-4 border-white/20 step-circle">
+                    <div className="w-[88px] h-[88px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.4)] mb-6 border-4 border-blue-400/30 step-circle">
                       <span className="text-[28px] font-black">05</span>
                     </div>
                     <h3 className="text-[24px] font-bold mb-3">발행</h3>
@@ -459,7 +462,7 @@ export default function Home() {
 
                   {/* Step 06 */}
                   <div className="relative z-10 flex flex-col items-center text-center">
-                    <div className="w-[88px] h-[88px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.3)] mb-6 border-4 border-white/20 step-circle">
+                    <div className="w-[88px] h-[88px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.4)] mb-6 border-4 border-blue-400/30 step-circle">
                       <span className="text-[28px] font-black">06</span>
                     </div>
                     <h3 className="text-[24px] font-bold mb-3">수정</h3>
@@ -470,7 +473,7 @@ export default function Home() {
 
                   {/* Step 07 */}
                   <div className="relative z-10 flex flex-col items-center text-center">
-                    <div className="w-[88px] h-[88px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.3)] mb-6 border-4 border-white/20 step-circle">
+                    <div className="w-[88px] h-[88px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(59,130,246,0.4)] mb-6 border-4 border-blue-400/30 step-circle">
                       <span className="text-[28px] font-black">07</span>
                     </div>
                     <h3 className="text-[24px] font-bold mb-3">유입전략 도입</h3>
@@ -487,7 +490,7 @@ export default function Home() {
               <div className="flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory hide-scrollbar" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
                 {/* Step 01 */}
                 <div className="flex-shrink-0 w-[260px] snap-center flex flex-col items-center text-center">
-                  <div className="w-[72px] h-[72px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.3)] mb-4 border-4 border-white/20">
+                  <div className="w-[72px] h-[72px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.4)] mb-4 border-4 border-blue-400/30">
                     <span className="text-[24px] font-black">01</span>
                   </div>
                   <h3 className="text-[20px] font-bold mb-2">상담</h3>
@@ -498,7 +501,7 @@ export default function Home() {
 
                 {/* Step 02 */}
                 <div className="flex-shrink-0 w-[260px] snap-center flex flex-col items-center text-center">
-                  <div className="w-[72px] h-[72px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.3)] mb-4 border-4 border-white/20">
+                  <div className="w-[72px] h-[72px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.4)] mb-4 border-4 border-blue-400/30">
                     <span className="text-[24px] font-black">02</span>
                   </div>
                   <h3 className="text-[20px] font-bold mb-2">가이드 전송</h3>
@@ -509,7 +512,7 @@ export default function Home() {
 
                 {/* Step 03 */}
                 <div className="flex-shrink-0 w-[260px] snap-center flex flex-col items-center text-center">
-                  <div className="w-[72px] h-[72px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.3)] mb-4 border-4 border-white/20">
+                  <div className="w-[72px] h-[72px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.4)] mb-4 border-4 border-blue-400/30">
                     <span className="text-[24px] font-black">03</span>
                   </div>
                   <h3 className="text-[20px] font-bold mb-2">전략 구축</h3>
@@ -520,7 +523,7 @@ export default function Home() {
 
                 {/* Step 04 */}
                 <div className="flex-shrink-0 w-[260px] snap-center flex flex-col items-center text-center">
-                  <div className="w-[72px] h-[72px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.3)] mb-4 border-4 border-white/20">
+                  <div className="w-[72px] h-[72px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.4)] mb-4 border-4 border-blue-400/30">
                     <span className="text-[24px] font-black">04</span>
                   </div>
                   <h3 className="text-[20px] font-bold mb-2">원고 작성</h3>
@@ -531,7 +534,7 @@ export default function Home() {
 
                 {/* Step 05 */}
                 <div className="flex-shrink-0 w-[260px] snap-center flex flex-col items-center text-center">
-                  <div className="w-[72px] h-[72px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.3)] mb-4 border-4 border-white/20">
+                  <div className="w-[72px] h-[72px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.4)] mb-4 border-4 border-blue-400/30">
                     <span className="text-[24px] font-black">05</span>
                   </div>
                   <h3 className="text-[20px] font-bold mb-2">발행</h3>
@@ -542,7 +545,7 @@ export default function Home() {
 
                 {/* Step 06 */}
                 <div className="flex-shrink-0 w-[260px] snap-center flex flex-col items-center text-center">
-                  <div className="w-[72px] h-[72px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.3)] mb-4 border-4 border-white/20">
+                  <div className="w-[72px] h-[72px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.4)] mb-4 border-4 border-blue-400/30">
                     <span className="text-[24px] font-black">06</span>
                   </div>
                   <h3 className="text-[20px] font-bold mb-2">수정</h3>
@@ -553,7 +556,7 @@ export default function Home() {
 
                 {/* Step 07 */}
                 <div className="flex-shrink-0 w-[260px] snap-center flex flex-col items-center text-center">
-                  <div className="w-[72px] h-[72px] bg-white text-[#0a1628] rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.3)] mb-4 border-4 border-white/20">
+                  <div className="w-[72px] h-[72px] bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.4)] mb-4 border-4 border-blue-400/30">
                     <span className="text-[24px] font-black">07</span>
                   </div>
                   <h3 className="text-[20px] font-bold mb-2">유입전략 도입</h3>
