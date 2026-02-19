@@ -100,11 +100,7 @@ export default function Home() {
               <a className="text-sm font-semibold text-slate-600 hover:text-[#1d4cd7] transition-colors" href="#reviews">후기</a>
               <a className="text-sm font-semibold text-slate-600 hover:text-[#1d4cd7] transition-colors" href="#faq">자주 묻는 질문</a>
             </nav>
-            <div className="flex items-center">
-              <a className="hidden sm:flex items-center justify-center h-10 px-5 rounded-lg bg-[#1d4cd7] hover:bg-blue-700 text-white text-sm font-bold shadow-md transition-all transform hover:-translate-y-0.5" href="https://kmong.com/gig/638867" target="_blank" rel="noopener noreferrer">
-                크몽에서 확인하기
-              </a>
-            </div>
+
           </div>
         </div>
       </header>
