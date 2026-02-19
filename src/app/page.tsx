@@ -1387,7 +1387,7 @@ export default function Home() {
             <span className="hidden sm:inline-flex items-center justify-center px-3 py-1 rounded-full bg-yellow-400 text-slate-900 text-xs font-black uppercase tracking-wider animate-pulse">
               🎁 EVENT
             </span>
-            <p className="text-lg sm:text-2xl font-bold">
+            <p className="text-xl sm:text-3xl font-bold">
               지금 <span className="text-yellow-400 font-black">무료 진단 이벤트</span> 진행 중!
             </p>
           </div>
@@ -1396,7 +1396,7 @@ export default function Home() {
               href="https://link.inpock.co.kr/koreaautoweb"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center px-8 py-3 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-slate-900 text-lg font-black shadow-lg shadow-yellow-500/30 transition-all transform hover:-translate-y-0.5"
+              className="flex items-center justify-center px-10 py-4 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-slate-900 text-xl font-black shadow-lg shadow-yellow-500/30 transition-all transform hover:-translate-y-0.5"
             >
               무료 진단 받기
               <span className="material-symbols-outlined ml-1 text-lg">arrow_forward</span>
