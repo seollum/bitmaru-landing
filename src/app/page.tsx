@@ -208,11 +208,11 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
-              <a className="flex items-center justify-center h-14 px-8 rounded-xl bg-[#1d4cd7] hover:bg-blue-700 text-white text-lg font-bold shadow-lg shadow-blue-500/30 transition-all transform hover:-translate-y-1 w-full sm:w-auto" href="https://kmong.com/gig/638867" target="_blank" rel="noopener noreferrer">
+              <a className="flex items-center justify-center h-14 px-8 rounded-xl bg-[#1d4cd7] hover:bg-blue-700 text-white text-lg font-bold shadow-lg shadow-blue-500/30 transition-all transform hover:-translate-y-1 w-full sm:w-auto" href="https://open.kakao.com/o/sL25T7nh" target="_blank" rel="noopener noreferrer">
                 블로그 기자단 신청하기
                 <span className="material-symbols-outlined ml-2">arrow_forward</span>
               </a>
-              <a className="flex items-center justify-center h-14 px-8 rounded-xl bg-white border-2 border-slate-200 hover:border-[#1d4cd7]/50 text-slate-900 text-lg font-bold transition-all w-full sm:w-auto" href="https://link.inpock.co.kr/koreaautoweb" target="_blank" rel="noopener noreferrer">
+              <a className="flex items-center justify-center h-14 px-8 rounded-xl bg-white border-2 border-slate-200 hover:border-[#1d4cd7]/50 text-slate-900 text-lg font-bold transition-all w-full sm:w-auto" href="https://open.kakao.com/o/sL25T7nh" target="_blank" rel="noopener noreferrer">
                 블로그 관리대행 상담하기
               </a>
             </div>
@@ -1389,7 +1389,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-3">
             <a
-              href="https://link.inpock.co.kr/koreaautoweb"
+              href="https://open.kakao.com/o/sL25T7nh"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center px-10 py-4 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-slate-900 text-xl font-black shadow-lg shadow-yellow-500/30 transition-all transform hover:-translate-y-0.5"

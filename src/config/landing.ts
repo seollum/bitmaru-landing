@@ -7,7 +7,7 @@ export const siteConfig = {
     brandName: "빛마루 마케팅",
 
     // 크몽 상품 링크 (고정)
-    kmongUrl: "https://kmong.com/gig/638867",
+    kmongUrl: "https://open.kakao.com/o/sL25T7nh",
 
     // SEO 메타 정보
     seo: {
